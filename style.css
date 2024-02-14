@@ -1,0 +1,295 @@
+
+img{
+ 
+  width: 300px; 
+  height: auto;
+ 
+  
+}
+
+p {
+	text-indent: 50px;
+	text-align: justify;
+	letter-spacing: .5px;
+  }
+
+  dd{
+	text-indent: 100px;
+  }
+  .nav-pills {
+	position: fixed;
+	top: 20px;
+	right: 20px;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+  }
+
+  .nav-pills .nav-item {
+	display: inline-block;
+	margin-right: 10px;
+  }
+
+  .nav-pills .nav-item a {
+	color: #333;
+	text-decoration: none;
+	padding: 5px 10px;
+	border-radius: 5px;
+	background-color: #f8f6f6;
+  }
+
+  .nav-pills .nav-item a:hover {
+	background-color: #ecb4e3;
+  }
+
+/* CSS styles for the responsive header */
+
+
+header{
+	background: linear-gradient(to right, #cd81e9, #c752c7);
+
+}
+
+/* CSS styles for the responsive header */
+header {
+    background-color: #f8f9fa; /* Background color */
+  }
+  
+  .nav.nav-pills {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .nav.nav-pills li {
+    margin-bottom: 5px; 
+  }
+  
+  .nav.nav-pills li a {
+    font-size: 14px; 
+    padding: 8px 15px; 
+  }
+  
+  
+  @media (max-width: 576px) {
+    .nav.nav-pills li a {
+      font-size: 10px; 
+      padding: 6px 10px; 
+    }
+  }
+  
+
+
+.second_col{
+	padding-top: 15%;
+}
+
+/* Add this CSS to your stylesheet or in a style block */
+
+/* Adjust the background color and padding as needed */
+.home {
+
+    padding: 50px 0;
+}
+
+.image-container {
+    border-radius: 15px; /* Rounded corners for the image container */
+    overflow: hidden;
+	background: linear-gradient(to right, #cd81e9, #c752c7); /* Background color for the container */
+    box-shadow: 20px 0 20px rgba(0, 0, 0, 0.1); /* Adding a subtle shadow effect */
+}
+
+.rounded-image {
+    border-radius: 15px; /* Rounded corners for the image */
+}
+
+.text-body-emphasis {
+    color: #333; /* Adjust text color */
+}
+
+/* Existing CSS code */
+
+/* Adjust the font sizes for smaller screens */
+@media (max-width: 767px) {
+    .text-body-emphasis {
+		margin-top: 10%;
+        font-size: 2rem; /* Adjust the font size of the headline for smaller screens */
+    }
+
+    .lead {
+        font-size: .8rem; /* Adjust the font size of the lead text for smaller screens */
+    }
+}
+
+/* Existing CSS code */
+
+/* Add zoom effect on hover */
+.zoomable {
+    transition: transform 0.8s ease-in-out; 
+}
+
+.zoomable:hover {
+    transform: scale(1.4); /* Scale the image on hover */
+}
+
+body {
+	background: linear-gradient(to left, #cd81e9, #c752c7);
+
+    color: rgb(24, 20, 24); 
+}
+
+
+/* Add this CSS to your stylesheet or in a style block */
+
+.about-title {
+    font-size: 2.5rem; /* Adjust title font size */
+    color: #8e44ad; /* Set title color */
+    text-align: center; /* Center align the title */
+    margin-bottom: 20px; /* Add some bottom margin for spacing */
+}
+
+.about-content {
+    border: 2px solid #8e44ad; /* Add border to the content */
+    border-radius: 10px; /* Add border radius for rounded corners */
+    padding: 20px; /* Add padding to the content */
+    font-size: 1.1rem; /* Adjust paragraph text font size */
+    line-height: 1.6; /* Set line height for readability */
+}
+
+.about-content a {
+    color: #fff; /* Set link color inside the about content */
+    text-decoration: none; /* Remove underline from the link */
+    display: inline-block; /* Ensure the link displays as a block */
+    margin-top: 15px; /* Add top margin to the link */
+}
+
+.about-content a:hover {
+    text-decoration: none; /* Remove underline on hover */
+}
+
+/* Add this CSS to your stylesheet or in a style block */
+
+.education-title {
+    font-size: 2.5rem; /* Adjust title font size */
+    color: #8e44ad; /* Set title color */
+    text-align: center; /* Center align the title */
+    margin-bottom: 20px; /* Add bottom margin for spacing */
+}
+
+.education-content {
+    border: 2px solid #8e44ad; /* Add border around the content */
+    border-radius: 10px; /* Round the corners */
+    padding: 20px; /* Add padding to the content */
+}
+
+.education-content .row {
+    border-bottom: 1px solid #ccc; /* Add bottom border between rows */
+    padding: 10px 0; /* Add padding to the rows */
+}
+
+.education-content .col-6 {
+    font-weight: bold; /* Make the institution name bold */
+}
+
+.education-content .col-3 {
+    font-size: 1.1rem; /* Adjust font size for percentages and years */
+}
+
+.education-content .text-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Add this CSS to your stylesheet or in a style block */
+
+.skills-title {
+    font-size: 2.5rem;
+    color: #8e44ad;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.skills-content {
+    border: 2px solid #8e44ad;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.skills-content .row {
+    padding: 10px 0;
+}
+
+.skills-content dt {
+    font-weight: bold;
+}
+
+.skills-content dd {
+    margin-left: 0; /* Remove default margin */
+    margin-bottom: 10px; /* Add bottom margin for spacing */
+}
+
+
+/* Add this CSS to your stylesheet or in a style block */
+
+.experience-title {
+    font-size: 2.5rem;
+    color: #8e44ad;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.experience-content {
+    border: 2px solid #8e44ad;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.experience-content .row {
+    margin-bottom: 40px;
+}
+
+.experience-content h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.experience-content span {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.experience-content ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.experience-content ul ul {
+    list-style-type: circle;
+}
+
+
+footer{
+	background: linear-gradient(to right, #cd81e9, #c752c7);
+}
+
+
+
+/* CSS for animations */
+.animated-text {
+    opacity: 0;
+    animation: fadeInAnimation 5s ease forwards;
+    animation-delay: 0.20s; /* Delay for each element */
+  }
+  
+  @keyframes fadeInAnimation {
+    from {
+      opacity: 0;
+      transform: translateY(200px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
